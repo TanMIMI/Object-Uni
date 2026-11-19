@@ -1,0 +1,34 @@
+{
+ "dataset": "objectron",
+ "image": "shoe_frame000150.png",
+ "task_type": "image_und",
+ "conversations": [
+  {
+   "from": "human",
+   "value": "<image> Describe the image in detail. Then reason each annotated object's (OBJECT1 in bbox [468, 488, 1220, 1340]) category, feature, image position, and viewpoint description. Finally, reason the most important spatial relations among the objects, and estimate the orientation of OBJECT1 (azimuth, polar, and rotation)."
+  },
+  {
+   "from": "gpt",
+   "value": "A single brown and grey hiking shoe rests on a light wood-grained floor. The shoe has beige mesh panels, a dark reinforced toe cap, a thick sole, and loose red-and-black laces. It occupies the central-right area of the image, with its toe pointing toward the lower left and its heel toward the upper right. Viewed from above at an oblique angle, the shoe shows its toe, laces, side, and open collar."
+  }
+ ],
+ "box_data": [
+  {
+   "category": "shoes",
+   "idx": 1,
+   "bbox": [
+    468,
+    488,
+    1220,
+    1340
+   ],
+   "orient": {
+    "azimuth": 37.11,
+    "polar": 53.16,
+    "rotation": 1.23
+   }
+  }
+ ],
+ "img_w": 1440,
+ "img_h": 1920
+}

@@ -1,0 +1,36 @@
+{
+ "dataset": "objectron",
+ "image": "cup_frame000090.png",
+ "task_type": "image_gen",
+ "conversations": [
+  {
+   "from": "human",
+   "value": "Generate an image: From a high-angle viewpoint, a single matte, sage-green ceramic mug rests on a dark, wood-grain tabletop. The mug's exterior features a tactile, embossed pattern of vertical rounded lines, creating a striking contrast with its smooth, cream-colored interior. This simple, modern composition evokes a sense of quiet and calm. The orientation of CUP1 in bbox [292, 276, 1164, 1044] (azimuth, polar, and rotation) are: 89, 54, 0."
+  },
+  {
+   "from": "gpt",
+   "value": "<image>"
+  }
+ ],
+ "box_data": [
+  {
+   "category": "cup",
+   "idx": 1,
+   "bbox": [
+    292,
+    276,
+    1164,
+    1044
+   ],
+   "orient": {
+    "azimuth": 89,
+    "polar": 54,
+    "rotation": 0
+   }
+  }
+ ],
+ "img_w": 1440,
+ "img_h": 1920,
+ "cnocs_map": "cup_frame000090.exr",
+ "cnocs_map_vis": "cup_frame000090_vis.png"
+}

@@ -1,0 +1,21 @@
+{
+  "add_bos_token": false,
+  "add_eos_token": false,
+  "bos_token": "<|startoftext|>",
+  "clean_up_tokenization_spaces": false,
+  "cls_token": "[CLS]",
+  "eos_token": "<|endoftext|>",
+  "gmask_token": "[gMASK]",
+  "additional_special_tokens":[
+    "<role>",
+    "</role>",
+    "<|arithmetic_start|>",
+    "<|arithmetic_end|>",
+    "<|number_start|>",
+    "<|number_end|>"
+  ],
+  "merges_file": null,
+  "model_max_length": 1000000000000000019884624838656,
+  "tokenizer_class": "BailingTokenizer",
+  "vocab_file": null
+}

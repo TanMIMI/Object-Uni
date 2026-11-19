@@ -1,0 +1,74 @@
+{
+ "dataset": "objectron",
+ "image": [
+  "chair_frame000050.png",
+  "chair_frame000090.png"
+ ],
+ "task_type": "image_gen",
+ "conversations": [
+  {
+   "from": "human",
+   "value": "Generate a target image given an initial view: <image>. The initial orientation of CHAIR1 in bbox [216, 340, 1048, 1588] (azimuth, polar, and rotation) are: 35.45, 43.57, 7.49. The deviation of the orientation of CHAIR1 are: azimuth -86.27, polar 12.78, rotation -6.11."
+  },
+  {
+   "from": "gpt",
+   "value": "<image>"
+  }
+ ],
+ "box_data": {
+  "initial": [
+   {
+    "category": "chair",
+    "idx": 1,
+    "bbox": [
+     216,
+     340,
+     1048,
+     1588
+    ],
+    "orient": {
+     "azimuth": 35.45,
+     "polar": 43.57,
+     "rotation": 7.49
+    }
+   }
+  ],
+  "target": [
+   {
+    "category": "chair",
+    "idx": 1,
+    "bbox": [
+     264,
+     236,
+     1256,
+     1524
+    ],
+    "orient": {
+     "azimuth": 309.18,
+     "polar": 56.35,
+     "rotation": 1.38
+    }
+   }
+  ],
+  "ori_deviation": [
+   {
+    "category": "chair",
+    "idx": 1,
+    "delta_orient": {
+     "azimuth": -86.27,
+     "polar": 12.78,
+     "rotation": -6.11
+    }
+   }
+  ]
+ },
+ "img_w": [
+  1440,
+  1440
+ ],
+ "img_h": [
+  1920,
+  1920
+ ],
+ "cnocs_map": "chair_frame000090.exr"
+}

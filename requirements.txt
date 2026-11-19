@@ -1,0 +1,12 @@
+torch==2.4.0
+transformers==4.46.3
+diffusers==0.33.0
+accelerate
+safetensors
+flash_attn>=2.3.6
+openexr_numpy
+numpy==1.26.4
+pillow
+einops
+peft==0.11.1
+atorch==1.6.0
